@@ -1,0 +1,57 @@
+/**
+ * @Author: Your name
+ * @Date:   2022-05-29 10:59:17
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2022-06-02 21:33:03
+ */
+ * {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-color: #2549d3;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+body {
+    margin: 0;
+}
+
+::selection {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Btn */
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    border: none;
+    width: 182px;
+    height: 67px;
+    color: var(--white-color);
+    background: var(--primary-color);
+    font-size: 2.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 43px;
+}
+
