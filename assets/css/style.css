@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-06-02 22:17:59
+ * @Last Modified time: 2022-06-03 15:22:37
  */
  /* Header */
  .main {
@@ -22,6 +22,13 @@
     align-items: center;
 }
 
+.header__navbar-heading {
+    font-size: 4.6rem;
+    font-family: 'Brush Script MT';
+    font-style: italic;
+    font-weight: 400;
+}
+
 .header__navbar-list {
     display: flex;
     list-style: none;
@@ -34,7 +41,7 @@
 
 .header__navbar-link {
     text-decoration: none;
-    line-height: 2;
+    line-height: 2rem;
     display: block;
     color: var(--text-color);
     font-size: 2.4rem;
@@ -55,7 +62,7 @@
 .content-description {
     display: flex;
     flex-direction: column;
-    padding: 0px;  
+    padding: 0px;
     width: 640px;
     height: 468px;
     margin-right: 30px;
@@ -355,6 +362,14 @@
     justify-content: space-between;
 }
 
+.footer__container-heading {
+    font-size: 3rem;
+    color: var(--white-color);
+    margin-top: 16px;
+    font-weight: 700;
+    font-family: 'Brush Script MT';
+}
+
 .footer__content {
     flex-basis: 15%;
 }
@@ -379,7 +394,7 @@
 
 .footer__text {
     font-size: 1.6rem;
-    line-height: 3rem;
+    line-height: 2rem;
     color: var(--white-color);
 }
 
