@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-06-03 15:22:37
+ * @Last Modified time: 2022-06-03 15:33:58
  */
  /* Header */
  .main {
@@ -366,7 +366,7 @@
     font-size: 3rem;
     color: var(--white-color);
     margin-top: 16px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Brush Script MT';
 }
 
@@ -394,7 +394,7 @@
 
 .footer__text {
     font-size: 1.6rem;
-    line-height: 2rem;
+    line-height: 3rem;
     color: var(--white-color);
 }
 
