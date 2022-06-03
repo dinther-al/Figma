@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-06-02 21:33:16
+ * @Last Modified time: 2022-06-03 15:31:15
  */
  /* Header */
  .main {
@@ -22,6 +22,13 @@
     align-items: center;
 }
 
+.header__navbar-heading {
+    font-size: 4.6rem;
+    font-family: 'Brush Script MT';
+    font-style: italic;
+    font-weight: 400;
+}
+
 .header__navbar-list {
     display: flex;
     list-style: none;
@@ -34,7 +41,7 @@
 
 .header__navbar-link {
     text-decoration: none;
-    line-height: 2;
+    line-height: 2rem;
     display: block;
     color: var(--text-color);
     font-size: 2.4rem;
@@ -55,8 +62,7 @@
 .content-description {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;  
+    padding: 0px;
     width: 640px;
     height: 468px;
     margin-right: 30px;
@@ -67,8 +73,8 @@
     height: 246px;
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
-    line-height: 82px;
+    font-size: 5rem;
+    line-height: 6rem;
     color: #0F298B;
 }
 
@@ -76,10 +82,12 @@
     width: 639px;
     height: 88px;
     flex: 1;
+    font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 3.2rem;
+    line-height: 4.1rem;
     color: rgba(0, 0, 0, 0.81);
+    margin-top: -140px;
 }
 
 .content-place {
@@ -199,11 +207,11 @@
 }
 
 .address__title {
-   font-style: normal;
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 31px;
-   text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
 }
 
 .content-feature-list {
@@ -235,7 +243,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 3.6rem;
-    line-height: 61px;
+    line-height: 6rem;
     color: var(--primary-color);
     margin: 0;
     text-align: left;
@@ -245,7 +253,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 2.4rem;
-    line-height: 31px;
+    line-height: 3rem;
     color: var(--text-color);
     text-align: left;
 }
@@ -265,8 +273,8 @@
 .content-reason__title {
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 2.4rem;
+    line-height: 3rem;
 }
 
 .content-feature {
@@ -352,6 +360,14 @@
 .footer__container {
     display: flex;
     justify-content: space-between;
+}
+
+.footer__container-heading {
+    font-size: 3rem;
+    color: var(--white-color);
+    margin-top: 16px;
+    font-weight: 800;
+    font-family: 'Brush Script MT';
 }
 
 .footer__content {
