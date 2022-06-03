@@ -3,7 +3,7 @@
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
 <<<<<<< HEAD
- * @Last Modified time: 2022-06-03 15:33:58
+ * @Last Modified time: 2022-06-03 16:06:32
 =======
  * @Last Modified time: 2022-06-03 15:31:15
 >>>>>>> 818ad9778285039ee50a5bbcaedfc869c2f76d3d
@@ -297,6 +297,10 @@
     border-bottom-left-radius: 50px;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.content-feature-img--size-s {
+    height: calc(100% - 110px);
 }
 
 .feature__text,
