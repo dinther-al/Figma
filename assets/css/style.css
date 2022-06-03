@@ -65,7 +65,6 @@
 .content-description__heading {
     width: 640px;
     height: 246px;
-    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
@@ -77,8 +76,6 @@
     width: 639px;
     height: 88px;
     flex: 1;
-    font-family: 'Space Grotesk';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 41px;
@@ -195,7 +192,6 @@
 
 .address__heading {
     margin: 0;
-    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
     font-size: 3.6rem;
@@ -203,12 +199,11 @@
 }
 
 .address__title {
-    font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 31px;
-text-align: center;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 31px;
+   text-align: center;
 }
 
 .content-feature-list {
@@ -237,7 +232,6 @@ text-align: center;
 }
 
 .content-reason__heading {
-    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 3.6rem;
@@ -248,7 +242,6 @@ text-align: center;
 }
 
 .content-reason__sub-heading {
-    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
     font-size: 2.4rem;
@@ -270,7 +263,6 @@ text-align: center;
 }
 
 .content-reason__title {
-    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
