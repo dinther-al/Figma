@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-06-02 21:33:03
+ * @Last Modified time: 2022-06-05 10:28:56
  */
  * {
     box-sizing: inherit;
@@ -28,7 +28,7 @@ body {
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     box-sizing: border-box;
 }
 
