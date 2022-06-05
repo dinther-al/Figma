@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2022-05-29 10:59:17
  * @Last Modified by:   Your name
- * @Last Modified time: 2022-06-05 10:41:09
+ * @Last Modified time: 2022-06-05 12:40:04
  */
  /* Header */
 .main {
@@ -296,8 +296,8 @@
     margin-bottom: 10px;
 }
 
-.content-feature-img.content-feature-img--size-s {
-    height: 167pxpx;
+.content-feature-img--size-s {
+    height: 170x;
 }
 
 .feature__text,
